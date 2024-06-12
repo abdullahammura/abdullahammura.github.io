@@ -359,11 +359,11 @@ a:focus {
 
 .large-btn .content-inner {
     font-size: 0;
-     solid #F6D155;
+    solid #F6D155;
 }
 
 .large-btn .btn {
-    position: center;
+    position: relative; /* Add this line */
     width: 100%;
     padding: 15px 0;
     color: #FF6F61;
@@ -395,7 +395,6 @@ a:focus {
     width: 100%;
     background: rgba(255, 255, 255, .1);
 }
-
 
 /**********************************/
 /******* Content Header CSS *******/
